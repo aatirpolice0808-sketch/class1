@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Saw The Sign</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: rgb(42, 85, 114);
+            font-family: Georgia, serif;
+        }
+
+        .container {
+            width: 70%;
+            margin: 40px auto;
+            background: rgb(26, 12, 88);
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+        /* NAV MENU */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 20px;
+            background-color: antiquewhite;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: rgb(136, 21, 21);
+            background: #3d1d1d;
+            padding: 8px 25px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background: #beb3b3;
+        }
+
+        h1 {
+            text-align: center;
+            letter-spacing: 3px;
+            background-color: bisque;
+        }
+
+        p {
+            text-align: center;
+            margin: 0 auto 20px;
+            width: 80%;
+            line-height: 1.5;
+            background-color: blanchedalmond;
+        }
+
+        .main-image {
+            width: 75%;
+            height: 59;
+            display: block;
+            margin: 20px auto;
+        }
+
+        /* IMAGE GRID */
+        .grid {
+            width: 20;
+            height: 20;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .grid-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .caption {
+            text-align: center;
+            margin-top: 5px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <nav>
+        <a href="#">ABOUT ME</a>
+        <a href="#">MY WORK</a>
+        <a href="#">CONTACT</a>
+    </nav>
+
+    <h1>I SAW THE SIGN</h1>
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae iusto id dicta corporis quia quod fugit facilis blanditiis autem nemo quibusdam explicabo eveniet accusantium, nihil temporibus velit! Fugit, asperiores eveniet!
+    </p>
+
+    <!-- MAIN IMAGE -->
+    <img src="imeg/Nov 22, 2025 at 4_47 PM.jpg" class="main-image" alt="Main Sign Image">
+
+    <!-- GRID IMAGE SECTION -->
+    <div class="grid">
+
+        <div class="grid-item">
+            <img src="imeg/Nov 22, 2025 at 4_47 PM(1).jpg" alt="">
+            <div class="photo">Neon on brick</div>
+        </div>
+
+        <div class="grid-item">
+            <img src="imeg/405c1b24-0d7b-440f-b860-23c9b7a3a700.jpg" alt="">
+            <div class="photo">Classic ENTER sign</div>
+        </div>
+
+        <div class="grid-item">
+            <img src="imeg/41ca66c2-f17f-4782-baa4-7caba1578b43.jpg" alt="">
+            <div class="photo">Love is a losing game</div>
+        </div>
+
+        <div class="grid-item">
+            <img src="imeg/7364f594-a946-43cd-8b84-b3cdd10c21ac.jpg" alt="">
+            <div class="photo">& your point?</div>
+        </div>
+
+        <div class="grid-item">
+            <img src="imeg/72529253-8289-4a1b-95f6-fc9959c77baa.jpg" alt="">
+            <div class="photo">Which way?</div>
+        </div>
+
+        <div class="grid-item">
+            <img src="imeg/fc62cc9c-57e0-4e8d-8175-6c1142177e6e.jpg" alt="">
+            <div class="photo">Vintage motel sign</div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
